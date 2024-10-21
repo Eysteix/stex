@@ -1,5 +1,4 @@
 import { copyrightSign } from "../assets/icons"
-import { footerLogo } from "../assets/images"
 import { socialMedia } from "../constants"
 import { footerLinks } from "../constants"
 
@@ -25,7 +24,7 @@ const Footer = () => {
    </div>
    <div className="flex flex-1 justify-between lg:gap-10 gap-20  flex-wrap">
 {footerLinks.map((section)=>(
-    <div className="" key={section}>
+    <div className="" >
       <h4 className="font-montserrat text-2xl leading-normal font-medium mb-6 ">
         {section.title}
       </h4>
